@@ -14,7 +14,7 @@ const eqArrays = function(actual, expected) {
   if (actual.length === expected.length) {
     for (let i = 0; i < actual.length; i++) {
       if (actual[i] !== expected[i]){
-        return false
+        console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]))); 
       } 
     }
   } else {
@@ -25,5 +25,5 @@ const eqArrays = function(actual, expected) {
 }
 
 
-console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)); // => should PASS
+console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)); 
 

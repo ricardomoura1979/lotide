@@ -25,7 +25,7 @@ const eqArrays = function(actual, expected) {
 
 
 
-const without = function (source, itemsToRemove) {
+const without = (source, itemsToRemove) => {
   let newArray = [];
   for (let i = 0; i < source.length; i++) {
     if (!itemsToRemove.includes(source[i])) {
