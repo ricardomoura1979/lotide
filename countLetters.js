@@ -12,12 +12,12 @@
 
 const countLetters = (sentence) => {
   const letters = {};
-  for (const eachLetter of sentence) {
-    if (eachLetter !== ' '){ 
-      if (letters[eachLetter]) {
-      letters[eachLetter] += 1;
+  for (const key of sentence) {
+    if (key !== ' '){ 
+      if (letters[key]) {
+      letters[key] += 1;
     } else {
-      letters[eachLetter] = 1;
+      letters[key] = 1;
     }
     }
     
