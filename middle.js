@@ -35,15 +35,6 @@ const middle = function(array) {
   return middleArray;
 };
 
-// console.log(middle([1,2])); // when length is equal to 2
-//console.log(middle([1,2,3,4,5,6,7,8])); // even [4,5]
-// console.log(middle([1,2,3,4])); //even
 
-console.log(middle([1])); // => []
-console.log(middle([1, 2])); // => []
 
-console.log(middle([1])); // => []
-console.log(middle([1, 2])); // => []
-
-console.log(middle([1, 2, 3, 4])); // => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
+module.exports = middle
