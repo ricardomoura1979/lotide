@@ -44,5 +44,5 @@ const letterPositions = (sentence) => {
 };
 
 console.log(assertEqual(eqArrays(letterPositions("hello").e, [1])));
-/* console.log(letterPositions('hello'));
-console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)); // => should PASS */
+console.log(letterPositions('hello'));
+console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)); // => should PASS 
