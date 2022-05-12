@@ -1,0 +1,26 @@
+{
+  "name": "@ricardomoura1979/lotide",
+  "version": "1.0.0",
+  "description": "Package containing head, middle and tail values",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardomoura1979/lotide.git"
+  },
+  "author": "Ricardo de Moura Paulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardomoura1979/lotide/issues"
+  },
+  "homepage": "https://github.com/ricardomoura1979/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
