@@ -1,11 +1,19 @@
 const takeUntil = function(array, callback) {
-  // ...
-}
-
+  const arr = [];
+  for (const element of array) {
+    if (!callback(element)) {
+      arr.push(element);
+    } else {
+      return arr;
+    }
+  }
+  return arr;
+};
 
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
+
 console.log(results1);
 
 console.log('---');
